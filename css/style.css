@@ -5,15 +5,19 @@ body{
 .main-col{
     width: 100%;
     display: flex;
-    background-color: antiquewhite;
-    height: 100vh;
+    
+    /* height: 100vh; */
 }
 
 .col-1,.col-3{
     width: 25%;
-    background-color: aqua;
+   
 }
 .col-2{
     width: 50%;
-    background-color: burlywood;
+   
+}
+.row-1,.row-2,.row-3,.row-4{
+    border: 1px solid;
+    height: 200px;
 }
